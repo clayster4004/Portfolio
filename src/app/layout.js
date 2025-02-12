@@ -19,6 +19,9 @@ export default function RootLayout({ children }) {
             })();
           `}
         </Script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100..900&family=Stint+Ultra+Expanded&display=swap');
+        </style>      
       </head>
       <body>{children}</body>
     </html>
