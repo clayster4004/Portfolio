@@ -1,4 +1,5 @@
 'use client';
+import "@fontsource/montserrat";
 import { useState } from 'react';
 import Navbar from '../components/Navbar.js';
 import SocialButton from '../components/SocialButton.js';
