@@ -194,6 +194,7 @@ input {
   .left-panel {
     position: static;
     width: 100%;
+    padding: 0px;
   }
 
   .right-panel {
