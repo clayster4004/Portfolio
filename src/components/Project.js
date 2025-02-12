@@ -15,7 +15,13 @@ export default function Project( { projectName, projectDesc, photoAlbum, techEle
       <div className={styles.techElems}>
         {techElems}
         <div>
-        <button className={styles.checkItOut} href={ghLink} target="_blank">Check it out!</button>
+        <button 
+          className={styles.checkItOut}
+          onClick={() => {
+            window.open(ghLink, '_blank');
+          }}>
+          Check it out!
+        </button>
         </div>
       </div>
     </div>

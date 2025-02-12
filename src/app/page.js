@@ -113,6 +113,7 @@ export default function Page() {
         <div className='social-links'>
           <SocialButton img={"github.svg"} link={'https://github.com/clayster4004'} />
           <SocialButton img={"linkedin.svg"} link={'https://www.linkedin.com/in/claybeal/'} />
+          <SocialButton img={"resume.svg"} link={'/resume/BealClayFebruary2025.pdf'} />
         </div>
       </div>
 
@@ -158,6 +159,7 @@ export default function Page() {
             projectName="This Portfolio!" 
             projectDesc={projectDescriptions.portfolio}
             techElems={<TechnologyUsed techElems={[techElems.react, techElems.html, techElems.css, techElems.js, techElems.git]} />}
+            ghLink='https://github.com/clayster4004/Portfolio'
             />
           </div>          
           <div className="project-div">
@@ -166,6 +168,7 @@ export default function Page() {
             projectDesc={projectDescriptions.filmBuffs} 
             //photoAlbum={<PhotoAlbum photos={[photos.aniston, photos.reynolds, photos.simpsons]} width="250px" height="450px" />}
             techElems={<TechnologyUsed techElems={[techElems.swift, techElems.createCoreML, techElems.uiUx, techElems.git]} /> }
+            ghLink='https://github.com/clayster4004/FilmBuffs'
             />
           </div>
           <div className="project-div">
@@ -174,6 +177,7 @@ export default function Page() {
             projectDesc={projectDescriptions.vibify}
             //photoAlbum={<PhotoAlbum photos={[photos.vibify]} width="450px" height="250px" />}
             techElems={<TechnologyUsed techElems={[techElems.python, techElems.uiUx, techElems.git]} />}
+            ghLink='https://github.com/ianmccourt/GVSU-CIS350-BigDataGuys'
             />
           </div>
           <div className="body-div">
