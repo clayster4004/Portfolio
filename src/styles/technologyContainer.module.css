@@ -1,0 +1,11 @@
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.techContainer p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}

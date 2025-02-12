@@ -1,0 +1,20 @@
+.socialButton {
+  padding: 0;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.socialButton img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.socialButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
